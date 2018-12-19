@@ -6,7 +6,7 @@ import socket
 import sys
 import argparse
 
-parser = argparse.ArgumentParser(description="libSSH Authentication Bypass")
+parser = argparse.ArgumentParser(description="LibSSH Authentication Bypass CVE-2018-10933")
 parser.add_argument('--host', help='Host')
 parser.add_argument('-p', '--port', help='libSSH port', default=22)
 parser.add_argument('-c', '--command', help='Command')
